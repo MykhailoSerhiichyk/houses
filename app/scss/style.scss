@@ -4,7 +4,69 @@
 
 // start header
 
+.header__inner {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.header__time {
+    position: relative;
+    padding-right: 44px;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: right;
+    margin-right: -200px;
+    margin-left: auto;
+
+    &:after {
+        position: absolute;
+        content: "";
+        width: 18px;
+        height: 18px;
+        background-image: url(../images/icons/clock.png);
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    &-text {
+        font-weight: 700;
+    }
+}
+
+.header__phone-text {
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.header__phone {
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 700;
+    color: $text;
+
+    &-box {
+        margin-right: 28px;
+        margin-left: auto;
+    }
+}
+
+.default__btn {
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 15px;
+    max-width: 170px;
+    width: 100%;
+    border-radius: 5px;
+    background-image: linear-gradient( -49deg, rgb(251,43,43) 0%, rgb(248,108,38) 100%);
+    text-align: center;
+}
+
+// end header
 
 @import 'media';
 
