@@ -66,3 +66,16 @@ body {
     line-height: 34px;
     text-align: center;
 }
+
+.default__btn {
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 15px;
+    max-width: 170px;
+    width: 100%;
+    border-radius: 5px;
+    background-image: linear-gradient( -49deg, rgb(251,43,43) 0%, rgb(248,108,38) 100%);
+    text-align: center;
+}
