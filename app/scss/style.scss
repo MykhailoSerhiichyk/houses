@@ -537,8 +537,295 @@
     }
 }
 
-
 // end plan
+
+// start guarantee
+
+.guarantee {
+    padding: 95px 0 160px;
+
+    &__title {
+        font-size: 30px;
+        line-height: 34px;
+        text-align: center;
+        font-weight: 700;
+        max-width: 770px;
+        width: 100%;
+        margin: 0 auto 55px;
+    }
+
+    &__text {
+        max-width: 595px;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0 auto 70px;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left-block {
+        max-width: 287px;
+        width: 100%;
+        text-align: right;
+        margin-top: 80px;
+
+        li {
+            font-weight: 500;
+            margin-bottom: 80px;
+            position: relative;
+            padding-right: 17px;
+
+            &.guarantee__left-block-one {
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    width: 168px;
+                    height: 1px;
+                    background-color: #fb9439;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: 100%;
+                }
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 20px;
+                    height: 20px;
+                    background-image: url(../images/icons/ellipse.png);
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: -200px;
+                }
+            }
+
+            &.guarantee__left-block-two {
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    width: 280px;
+                    height: 1px;
+                    background-color: #fb9439;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: 100%;
+                }
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 20px;
+                    height: 20px;
+                    background-image: url(../images/icons/ellipse.png);
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: -310px;
+                }
+            }
+
+            &.guarantee__left-block-three {
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    width: 140px;
+                    height: 1px;
+                    background-color: #fb9439;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: 100%;
+                }
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 20px;
+                    height: 20px;
+                    background-image: url(../images/icons/ellipse.png);
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: -170px;
+                }
+            }
+
+            &.guarantee__left-block-four {
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    width: 240px;
+                    height: 1px;
+                    background-color: #fb9439;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: 100%;
+                }
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 20px;
+                    height: 20px;
+                    background-image: url(../images/icons/ellipse.png);
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: -275px;
+                }
+            }
+
+            a {
+                color: $text;
+                border-bottom: 1px solid $text;
+                line-height: 16px;
+
+                &:hover {
+                    border-bottom: none;
+                }
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &__right-block {
+        max-width: 287px;
+        width: 100%;
+        text-align: left;
+        margin-top: 30px;
+
+        li {
+            font-weight: 500;
+            margin-bottom: 80px;
+            position: relative;
+            padding-left: 17px;
+
+            &.guarantee__right-block-one {
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    width: 130px;
+                    height: 1px;
+                    background-color: #fb9439;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 100%;
+                }
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 20px;
+                    height: 20px;
+                    background-image: url(../images/icons/ellipse.png);
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: -160px;
+                }
+            }
+
+            &.guarantee__right-block-two {
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    width: 140px;
+                    height: 1px;
+                    background-color: #fb9439;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 100%;
+                }
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 20px;
+                    height: 20px;
+                    background-image: url(../images/icons/ellipse.png);
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: -170px;
+                }
+            }
+
+            &.guarantee__right-block-three {
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    width: 130px;
+                    height: 1px;
+                    background-color: #fb9439;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 100%;
+                }
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 20px;
+                    height: 20px;
+                    background-image: url(../images/icons/ellipse.png);
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: -160px;
+                }
+            }
+
+            &.guarantee__right-block-four {
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    width: 290px;
+                    height: 1px;
+                    background-color: #fb9439;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 100%;
+                }
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 20px;
+                    height: 20px;
+                    background-image: url(../images/icons/ellipse.png);
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: -320px;
+                }
+            }
+
+            a {
+                color: $text;
+                border-bottom: 1px solid $text;
+                line-height: 16px;
+
+                &:hover {
+                    border-bottom: none;
+                }
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+// end guarantee
 
 
 
