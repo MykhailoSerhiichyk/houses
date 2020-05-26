@@ -15,6 +15,10 @@ $(function(){
         dots: true,
     });
 
+    $('.plan__slider').slick({
+        slidesToShow: 3,
+    });
+
 });
 
 
