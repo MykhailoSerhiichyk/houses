@@ -827,6 +827,52 @@
 
 // end guarantee
 
+// start materials
+
+.materials {
+    background-color: #0D3F57;
+    padding: 95px 0 100px;
+    color: #ffffff;
+
+    &__title {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 34px;
+        max-width: 495px;
+        width: 100%;
+        margin: 0 auto 75px;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        text-align: center;
+
+        &-images {
+            margin-bottom: 10px;
+        }
+
+        &-title {
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        &-link {
+            font-size: 14px;
+            line-height: 14px;
+            color: #ffffff;
+            border-bottom: 1px solid #ffffff;
+        }
+    }
+}
+
+// end materials
+
 
 
 @import 'media';
