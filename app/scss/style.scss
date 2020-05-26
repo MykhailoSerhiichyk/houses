@@ -873,6 +873,65 @@
 
 // end materials
 
+// start deadlines
+
+.deadlines {
+    background-image: url(../images/content/deadlines-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 780px;
+
+    &__img {
+        position: absolute;
+        top: 0;
+        left: -165px;
+    }
+
+    &__content {
+        position: relative;
+        padding: 95px 0 100px;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 34px;
+        max-width: 665px;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto 90px;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        max-width: 780px;
+        margin: 0 auto 40px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &-images {
+            margin-right: 30px;
+        }
+
+        &-title {
+            font-weight: 500;
+            font-size: 18px;
+            margin-bottom: 25px;
+            max-width: 470px;
+            width: 100%;
+        }
+
+        &-text {
+            font-size: 14px;
+        }
+    }
+}
+
+// end deadlines
 
 
 @import 'media';
