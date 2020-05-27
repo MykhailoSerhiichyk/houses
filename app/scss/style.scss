@@ -1138,6 +1138,77 @@
 
 // end questions
 
+// start questions-form
+
+.questions-form {
+    padding: 65px 0 70px;
+
+    &__inner {
+        max-width: 870px;
+        width: 100%;
+        margin: 0 auto;
+
+        form {
+            width: 100%;
+        }
+    }
+
+    &__title {
+        font-size: 22px;
+        line-height: 26px;
+        font-weight: 700;
+        max-width: 702px;
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    &__text {
+        margin-bottom: 45px;
+    }
+
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 45px;
+
+        input,
+        button {
+            height: 60px;
+            border: none;
+            border-radius: 10px;
+            max-width: 270px;
+            width: 100%;
+            outline: none;
+        }
+
+        input {
+            padding: 0 25px;
+            border: 1px solid #e8e8e8;
+
+            &::placeholder {
+                font-size: 12px;
+                line-height: 19px;
+                color: #000;
+            }
+        }
+
+        button {
+            cursor: pointer;
+        }
+    }
+
+    &__phone {
+        font-size: 14px;
+        
+        a {
+            color: $text;
+            font-weight: 700;
+        }
+    }
+}
+
+// end questions-form
+
 
 @import 'media';
 
