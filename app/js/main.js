@@ -13,10 +13,50 @@ $(function(){
         slidesToShow: 3,
         slidesToScroll: 3,
         dots: true,
+        responsive: [
+            {
+              breakpoint: 1181,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+              }
+            },
+            {
+                breakpoint: 621,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                }
+              },
+              {
+                breakpoint: 431,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  arrows: false,
+                }
+              },
+          ]
     });
 
     $('.plan__slider').slick({
         slidesToShow: 3,
+        responsive: [
+            {
+              breakpoint: 1181,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+              }
+            },
+            {
+                breakpoint: 796,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                }
+              },
+          ]
     });
 
 });
